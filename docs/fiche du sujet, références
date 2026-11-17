@@ -1,1 +1,53 @@
+# Fiche du sujet
 
+## Titre du projet
+
+Prévision de l'inflation au Maroc à partir de son évolution passée
+
+## Problématique
+
+Comment peut-on prévoir l'inflation au Maroc à partir de son évolution passée ?
+
+## Intérêt du sujet
+
+L'inflation est un indicateur économique essentiel. Elle influence :
+
+- le pouvoir d'achat des ménages ;
+- la politique monétaire de Bank Al-Maghrib ;
+- la fixation des salaires ;
+- les décisions des entreprises ;
+- la planification économique.
+
+Prévoir l'inflation permet donc d'anticiper l'évolution du coût de la vie.
+
+## Donnée étudiée
+
+La donnée étudiée est l'**Indice des Prix à la Consommation (IPC)** publié mensuellement par le Haut-Commissariat au Plan (HCP).
+
+À partir de l'IPC, on calcule le taux d'inflation en glissement annuel :
+
+\[
+Inflation_t^{YoY} = \left(\frac{IPC_t}{IPC_{t-12}} - 1\right) \times 100
+\]
+
+## Type de tâche
+
+- Apprentissage supervisé
+- Régression
+- Série temporelle
+
+## Variable cible
+
+- `inflation_yoy`
+
+## Algorithme retenu
+
+- Random Forest Regressor
+
+## Modèle de comparaison
+
+- Modèle naïf de persistance :
+
+\[
+\hat{y}_t = y_{t-1}
+\]
