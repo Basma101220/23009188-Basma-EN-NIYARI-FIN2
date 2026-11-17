@@ -26,8 +26,8 @@ L'étudiant déclare avoir :
 - adapté le travail aux consignes demandées ;
 - utilisé l'intelligence artificielle comme un **outil d'aide**, et non comme un substitut à son propre travail.
 
-Date : ____ / ____ / ______
+Date : __17__ / _11___ / __2026____
 
-Nom et prénom : ____________________________
+Nom et prénom : ________Basma EN-NIYARI____________________
 
 Signature : ________________________________
